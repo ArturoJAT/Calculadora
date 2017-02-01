@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Lobster;
+    src: url(font/Lobster_1.3.otf);
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+#calculadora {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 600px;
+    height: 100px;
+}
+
+.titulo {
+    font-family: Lobster;
+}
+
+.calc {
+    text-align: center;
+}
+
+.numpad {
+    width: 100px;
+    margin-left: 25%;
+    float: center;
+}
+
+#num {
+    color:black;
+    width: 60%;
+    text-align: right;
+    padding: 30px;
+    background-color: white;
+    margin-left: 15%;
+    border-radius: 5px;
+    float: center;
+    box-shadow: inset -4px -4px rgba(0, 0, 0, 0.2);
+    font-size:30px;
+    font-family: monospace;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-color: white;
+    border-width: 3px;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: Lobster;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#igual {
+    background-color: #ff3333;
+}

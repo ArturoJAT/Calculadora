@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="calculadora">
+            <script src="test.js"></script>
+            <div class="titulo">
+                <h1>Calculadora</h1>
+            </div>
+            <div class="calc">
+                <div id="num">0</div><br/><br/>
+                <table class="numpad">
+                    <tr>
+                        <td><button type="button" onclick="addnum(7)">7</button></td>
+                        <td><button type="button" onclick="addnum(8)">8</button></td>
+                        <td><button type="button" onclick="addnum(9)">9</button></td>
+                        <td> <button type="button" onclick="operacion('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" onclick="addnum(4)">4</button></td>
+                        <td><button type="button" onclick="addnum(5)">5</button></td>
+                        <td><button type="button" onclick="addnum(6)">6</button></td>
+                        <td> <button type="button" onclick="operacion('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" onclick="addnum(1)">1</button></td>
+                        <td><button type="button" onclick="addnum(2)">2</button></td>
+                        <td><button type="button" onclick="addnum(3)">3</button></td>
+                        <td> <button type="button" onclick="operacion('*')">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" onclick="addnum(0)">0</button></td>
+                        <td><button type="button" onclick="addnum('.')">.</button></td>
+                        <td> <button type="button" id="igual" onclick="resolver('=')">=</button></td>
+                        <td><button type="button" onclick="operacion('/')">/</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+
+</html>
